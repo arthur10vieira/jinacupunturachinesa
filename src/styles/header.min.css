@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: var(--fundo-branco);
+}
+
+header a[id=logo] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a[id=logo] img {
+    height: 80px;
+}
+
+header a[id=whatsapp] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, var(--fundo-verdenormal), var(--fundo-verdeclaro));
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    border: solid 5px var(--fundo-branco);
+    color: var(--fundo-branco);
+    gap: 1rem;
+    padding: 0.5rem;
+    font-weight: 900;
+}
+
+header a[id=whatsapp] img {
+    height: 30px;
+}

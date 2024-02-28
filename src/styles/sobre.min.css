@@ -1,0 +1,33 @@
+section[id=sobre] {
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: var(--fundo-branco);
+}
+
+section[id=sobre] h2 {
+    color: var(--fundo-azul);
+    font-weight: bold;
+}
+
+section[id=sobre] ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+section[id=sobre] ul li {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo-branco-alternativo);
+    width: 40rem;
+    height: 40rem;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}

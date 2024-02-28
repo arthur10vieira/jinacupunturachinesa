@@ -1,0 +1,93 @@
+section[id=servico] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
+    background-color: var(--fundo-branco-alternativo);
+}
+
+section[id=servico] div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section[id=servico] div h4 {
+    color: var(--fundo-azul);
+    font-weight: 600;
+}
+
+section[id=servico] div h2 {
+    font-weight: bold;
+}
+
+section[id=servico] div h2 strong {
+    color: var(--fundo-azul);
+    font-weight: bold;
+}
+
+section[id=servico] ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section[id=servico] ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: var(--fundo-branco);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+section[id=servico] ul li img {
+    width: 3rem;
+    height: 3rem;
+}
+
+section[id=servico] ul li h2 {
+    font-weight: bold;
+    color: var(--fundo-preto);
+}
+
+section[id=servico] ul li p {
+    font-weight: 600;
+    color: var(--fundo-preto);
+}
+
+section[id=servico] a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, var(--fundo-verdenormal), var(--fundo-verdeclaro));
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    border: solid 5px var(--fundo-branco);
+    color: var(--fundo-branco);
+    gap: 1rem;
+    padding: 0.5rem;
+    font-weight: 900;
+}
+
+section[id=servico] a img {
+    height: 30px;
+}

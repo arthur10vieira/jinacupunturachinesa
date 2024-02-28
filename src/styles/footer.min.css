@@ -1,0 +1,87 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100vh;
+    height: auto;
+    background-color: var(--fundo-azul);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+}
+
+footer div[id=form-contato] {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    height: 100%;
+    width: 45%;
+    border-radius: 1rem;
+    background-color: var(--fundo-semitransparent);
+    backdrop-filter: blur(1.5rem);
+    color: var(--fundo-branco);
+}
+
+footer div[id=form-contato] div { 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--fundo-azul);
+}
+
+footer div[id=form-contato] div h2 {
+    font-weight: bold; 
+}
+
+footer div[id=form-contato] div h4 {
+    font-weight: 600;
+}
+ 
+footer div[id=form-contato] form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+footer div[id=form-contato] form input {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+footer div[id=form-contato] form textarea {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+footer div[id=form-contato] form div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+footer div[id=form-contato] form div button {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 900;
+    border: none;
+    width: 150px;
+    background-color: var(--fundo-azul);
+    color: var(--fundo-branco);
+}
+
+footer div[id=form-contato] form div button:hover {
+    background: linear-gradient(180deg, var(--fundo-azul), var(--fundo-azul-alternativo));
+}
